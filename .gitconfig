@@ -31,6 +31,6 @@
     untracked = cyan
 
 [core]
-	autocrlf = true
+    autocrlf = true
     safecrlf = false
     editor = nano
