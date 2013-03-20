@@ -1,0 +1,36 @@
+[user]
+    name = Kevin Brown
+    email = bass5098@gmail.com
+
+[alias]
+    addp = add -p
+    ci = commit
+    cim = commit -m
+    br = branch
+    co = checkout
+    diffs = diff --staged
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    st = status
+
+[color]
+    diff = auto
+    status = auto
+
+[color "diff"]
+    meta = cyan
+    frag = yellow
+    old = red
+    new = green
+
+[color "interactive"]
+    prompt = yellow
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[core]
+	autocrlf = true
+    safecrlf = false
+    editor = nano
