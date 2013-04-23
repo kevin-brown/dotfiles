@@ -32,7 +32,7 @@ do
     else
         # Use the standard ln everywhere else
         
-        ln -s ".$fileName" "$HOME/.$fileName"
+        ln -s "$PWD/.$fileName" "$HOME/.$fileName"
         echo "Created symlink .${fileName} <=====> $HOME/.$fileName"
     fi
 done

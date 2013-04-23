@@ -22,4 +22,6 @@ alias mln=mln_func
 
 if [ -e "/usr/bin/virtualenvwrapper.sh" ]; then
     source /usr/bin/virtualenvwrapper.sh
+elif [ -e "/usr/local/bin/virtualenvwrapper.sh" ]; then
+    source /usr/local/bin/virtualenvwrapper.sh
 fi
