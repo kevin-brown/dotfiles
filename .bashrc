@@ -25,3 +25,7 @@ if [ -e "/usr/bin/virtualenvwrapper.sh" ]; then
 elif [ -e "/usr/local/bin/virtualenvwrapper.sh" ]; then
     source /usr/local/bin/virtualenvwrapper.sh
 fi
+
+if [ -e "/etc/bash_completion" ]; then
+    source /etc/bash_completion
+fi
