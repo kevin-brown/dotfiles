@@ -34,3 +34,4 @@
     autocrlf = true
     safecrlf = false
     editor = nano
+    whitespace = cr-at-eol
