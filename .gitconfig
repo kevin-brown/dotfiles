@@ -31,7 +31,10 @@
     untracked = cyan
 
 [core]
-    autocrlf = true
+    autocrlf = input
     safecrlf = false
     editor = nano
     whitespace = cr-at-eol
+
+[merge]
+    conflictstyle = diff3

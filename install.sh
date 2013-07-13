@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files="bashrc gitconfig vimrc"
+files="bashrc gitconfig nanorc vimrc"
 
 name=$(uname -s)
 

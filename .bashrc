@@ -29,3 +29,5 @@ fi
 if [ -e "/etc/bash_completion" ]; then
     source /etc/bash_completion
 fi
+
+shopt -s histverify
