@@ -6,17 +6,13 @@
 
 export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
 
-# Create links using MS mklink function
-
-mln_func ()
-{
-    cmd /c mklink $(cygpath -aw $3) $(cygpath -aw $2)
-}
-
 # Better file listing, automatically include hidden files
 
 alias ls="ls -la"
-alias mln=mln_func
+
+alias emacs="emacs -nw"
+
+alias git=hub
 
 # Load virtualenvwrapper if it is installed
 
@@ -31,3 +27,6 @@ if [ -e "/etc/bash_completion" ]; then
 fi
 
 shopt -s histverify
+
+VIRTUAL_ENV_DISABLE_PROMPT=1
+PS1='$(/usr/bin/python ~/.prompt.py)'
